@@ -1,0 +1,54 @@
+MPLINK 5.08, LINKER
+Linker Map File - Created Thu Aug 23 17:42:42 2018
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_1       code   0x000000    program   0x000002
+                   .cinit    romdata   0x000001    program   0x000004
+                   .org_2       code   0x000004    program   0x00007a
+.config_2007_BUILD/DEFAULT/PRODUCTION/VAZIO_E       code   0x002007    program   0x000002
+                   .org_0       code   0x002100    program   0x000050
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000002      
+                            0x000004    0x000040      
+                            0x002007    0x002007      
+                            0x002100    0x002127      
+            105 out of 1158 program addresses used, program memory utilization is 9%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                  AGUARDA   0x00001f    program     static /home/alexandre/MPLABXProjects/aula2308.X/Vazio_EEPROM.ASM
+                      FIM   0x000040    program     static /home/alexandre/MPLABXProjects/aula2308.X/Vazio_EEPROM.ASM
+             GRAVA_EEPROM   0x000013    program     static /home/alexandre/MPLABXProjects/aula2308.X/Vazio_EEPROM.ASM
+                   INICIO   0x000025    program     static /home/alexandre/MPLABXProjects/aula2308.X/Vazio_EEPROM.ASM
+                LE_EEPROM   0x00000c    program     static /home/alexandre/MPLABXProjects/aula2308.X/Vazio_EEPROM.ASM
+                   LOOP_1   0x000036    program     static /home/alexandre/MPLABXProjects/aula2308.X/Vazio_EEPROM.ASM
+                     MAIN   0x000034    program     static /home/alexandre/MPLABXProjects/aula2308.X/Vazio_EEPROM.ASM
+                  SAI_INT   0x000007    program     static /home/alexandre/MPLABXProjects/aula2308.X/Vazio_EEPROM.ASM
+               SUBROTINA1   0x000024    program     static /home/alexandre/MPLABXProjects/aula2308.X/Vazio_EEPROM.ASM
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                  SAI_INT   0x000007    program     static /home/alexandre/MPLABXProjects/aula2308.X/Vazio_EEPROM.ASM
+                LE_EEPROM   0x00000c    program     static /home/alexandre/MPLABXProjects/aula2308.X/Vazio_EEPROM.ASM
+             GRAVA_EEPROM   0x000013    program     static /home/alexandre/MPLABXProjects/aula2308.X/Vazio_EEPROM.ASM
+                  AGUARDA   0x00001f    program     static /home/alexandre/MPLABXProjects/aula2308.X/Vazio_EEPROM.ASM
+               SUBROTINA1   0x000024    program     static /home/alexandre/MPLABXProjects/aula2308.X/Vazio_EEPROM.ASM
+                   INICIO   0x000025    program     static /home/alexandre/MPLABXProjects/aula2308.X/Vazio_EEPROM.ASM
+                     MAIN   0x000034    program     static /home/alexandre/MPLABXProjects/aula2308.X/Vazio_EEPROM.ASM
+                   LOOP_1   0x000036    program     static /home/alexandre/MPLABXProjects/aula2308.X/Vazio_EEPROM.ASM
+                      FIM   0x000040    program     static /home/alexandre/MPLABXProjects/aula2308.X/Vazio_EEPROM.ASM
+
+
